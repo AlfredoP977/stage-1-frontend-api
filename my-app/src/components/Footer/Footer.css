@@ -1,0 +1,19 @@
+.footer__container {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top: 2px solid #444;
+}
+
+.footer__author {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer__year {
+  font-size: 0.9rem;
+  margin: 5px 0 0;
+  color: #aaa;
+}

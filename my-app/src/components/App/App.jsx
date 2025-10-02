@@ -1,7 +1,7 @@
 //css
 import "./App.css";
 //components
-import Header from "../Header/Header";
+import Header from "../Header/Header.jsx";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 //modals
@@ -13,11 +13,11 @@ function App() {
     <div className="page">
       <div className="page__content">
         <Header />
-        <Main />
-        <Footer />
+        {/* <Main />
+        <Footer /> */}
       </div>
-      <RegisterModal />
-      <LoginModal />
+      {/* <RegisterModal />
+      <LoginModal /> */}
     </div>
   );
 }
